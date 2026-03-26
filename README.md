@@ -1,6 +1,6 @@
 # Kenya Smart Credit Verification System - Streamlit App
 
-## 🚀 Built With
+## Built With
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](https://streamlit.io/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?logo=pandas)](https://pandas.pydata.org/)
@@ -27,47 +27,43 @@ cd C:\smart-credit-verify
 pip install -r requirements.txt
 ```
 
-Or install individually:
-```bash
-pip install streamlit pandas numpy plotly openpyxl
-```
-## 📱 Features
+## Features
 
-### 🏠 Dashboard
+### Dashboard
 - Overview of cost savings and performance metrics
 - Real-time comparison: Current vs Smart approach
 - Decision breakdown and score distributions
 
-### 💰 Cost Analysis
+### Cost Analysis
 - Monthly and annual cost projections
 - ROI calculations
 - CRB usage breakdown by reason
 
-### 🔍 Application Simulator
+### Application Simulator
 - Test individual loan applications
 - See real-time tier-by-tier evaluation
 - Understand why CRB checks are needed or avoided
 
-### 📊 Analytics
+### Analytics
 - Advanced visualizations
 - Score distributions by decision
 - CRB usage patterns by loan amount
 - Export data to CSV
 
-### ℹ️ About
+### About
 - Solution overview
 - Problem statement
 - Technology stack
 - Impact projections
 
-## 🎛️ Controls
+## Controls
 
 - **Sidebar Navigation:** Switch between pages
 - **Application Count Slider:** Adjust the number of applications to simulate (100-5000)
-- **Interactive Charts:** Hover for detailed information
+- **Interactive Charts:** 
 - **Live Simulator:** Input custom application data and see instant results
 
-## 📊 Demo Data
+## Demo Data
 
 The app generates realistic demo data including:
 - Loan amounts (KES 3,000 - 30,000)
@@ -76,7 +72,7 @@ The app generates realistic demo data including:
 - CRB records and scores
 - KRA PIN and NSSF verification status
 
-## 💡 Key Metrics Displayed
+## Key Metrics Displayed
 
 1. **Total Applications Processed**
 2. **CRB Checks Avoided** (with percentage)
@@ -84,7 +80,7 @@ The app generates realistic demo data including:
 4. **Approval Rate**
 5. **Monthly/Annual Projections**
 
-## 🎯 Use Cases
+## Use Cases
 - Adjust application volume to match client's scale
 - Export data for further analysis
 - Simulate individual applications with custom parameters
@@ -94,7 +90,7 @@ The app generates realistic demo data including:
 - Understand CRB usage patterns
 - Export results for business cases
 
-## 🔧 Customization
+## Customization
 
 ### Adjust Cost Parameters
 In the code, you can modify:
@@ -112,13 +108,13 @@ In the code, you can modify:
 - Adjust Plotly chart colors and themes
 - Change layout columns and spacing
 
-## 📈 Performance
+## Performance
 
 - Handles 1000 applications in < 2 seconds
 - Tested up to 5000 applications
 - Responsive UI with cached data processing
 
-## 🎓 Next Steps
+## Next Steps
 
 1. **Connect Real Data:**
 2. **Add Authentication:** 
